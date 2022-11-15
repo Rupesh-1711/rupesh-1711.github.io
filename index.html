@@ -79,7 +79,7 @@
               <li><a href="#projects">Projects</a></li>
               <li><a href="#achievements">Achievements</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a  href="/img/Rupesh_Patil_Resume.pdf" download="Rupesh Patil Resume">Resume</a></li>
+              <li><a  href="/img/Rupesh_Patil_Resume.pdf" download="Rupesh Patil Resume" class="resumNew">Resume</a></li>
             </ul>
           </nav>
         </header>
@@ -132,6 +132,7 @@
               background-color: black;
               color: white;
             "
+            class="resumNew"
             href="/img/Rupesh_Patil_Resume.pdf"
             download="Rupesh Patil Resume"
             >Download Resume</a>
@@ -140,7 +141,7 @@
       </div>
     </div>
 
-
+    <!-- <a  href="/img/Rupesh_Patil_Resume.pdf" download="Rupesh Patil Resume" class="resumNew">Resume</a> -->
     <div class="work section second" id="education">
       <div class="container">
         <br />
@@ -474,7 +475,7 @@
               />
             </li>
             <li style="margin: auto; margin-top: 5%; width: fit-content">
-              <!-- <a
+              <a
                 href="//"
                 style="
                   text-decoration: none;
@@ -489,10 +490,10 @@
                 target="_blank"
               >
                 <i class="fa fa-share-square-o"></i> Video</a
-              > -->
-              <!-- <span style="font-size: x-large">|</span> -->
+              >
+              <span style="font-size: x-large">|</span>
               <a
-                href="https://github.com/Rupesh-1711/spotted-lamp-2366"
+                href="https://github.com/Rupesh-1711/potent-scent-4991"
                 style="
                   text-decoration: none;
                   font-weight: 400;
@@ -523,7 +524,7 @@
                <br />
               A Individual project, built in 5 days. For further details please
               <a
-                href="https://github.com/Rupesh-1711/spotted-lamp-2366"
+                href="https://github.com/Rupesh-1711/potent-scent-4991"
                 target="_blank"
                 style="color: black; font-size: large; font-weight: 700"
                 >visit.</a
@@ -887,6 +888,13 @@
             $("#typed").typed("reset");
           });
       });
+
+           function openResume(){
+            window.location.href="https://drive.google.com/file/d/1P3-YFARYhpXSFxSROX5NBJ3uJ7hk-Eyf/view?usp=share_link"
+           }
+
+          let resum1 = document.querySelector(".resumNew").addEventListener("click", openResume)
+
     </script>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <script>
