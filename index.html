@@ -103,11 +103,11 @@
             <img
               src="./img/image-1.png"
               alt="Avatar"
-              style="height: 220px; width: 180px"
+              style="height: 220px; width: 180px;object-fit: cover;"
             />
           </div>
           <div class="unit-80">
-            <h1 style="margin: 30px">
+            <h1 style="margin: 30px; ">
               I am<br /><span id="typed" style="font-size: x-large"></span>
             </h1>
           </div>
@@ -325,75 +325,207 @@
         <br />
         <br />
         <br />
-        <h1>TECHNICAL<br />SKILLS</h1>
+        <div class="container">
+        <br>
+        <br>
+        <br>
+        <h1>TECHNICAL<br>SKILLS</h1>
         <ul class="skill-list list-flat">
           <div>
-            <h3><li>Front End Skills</li></h3>
+            <h3><li  style="text-align: center;font-size: 20px;">Front End Skills</li></h3>
             <h4 style="display: flex; gap: 1.9em; justify-content: center">
-              <li><img src="./img/html.svg" alt="" style="height: 70px" /></li>
-              <li><img src="./img/css.svg" alt="" style="height: 70px" /></li>
-              <li>
-                <img src="./img/javascript.svg" alt="" style="height: 70px" />
-              </li>
+              <table style="
+                  display: flex;
+                  justify-content: space-around;
+                  border-width: 5px;
+                  border: 2px solid black;
+                  background-color: black;
+                  color: white;
+                  border-radius: 6px;
+                  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+                    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                    font-family:Arial, Helvetica, sans-serif;
+                font-weight: 100;
+                ">
+                <tbody><tr>
+                  <td>HTML</td>
+                  <td>CSS</td>
+                  <td>JS</td>
+                </tr>
+                <tr>
+                  <td>
+                    <li>
+                      <img src="./img/html.svg" alt="" style="height: 70px">
+                    </li>
+                  </td>
+                  <td>
+                    <li>
+                      <img src="./img/css.svg" alt="" style="height: 70px">
+                    </li>
+                  </td>
+                  <td>
+                    <li>
+                      <img src="./img/javascript.svg" alt="" style="height: 70px">
+                    </li>
+                  </td>
+                </tr>
+              </tbody></table>
             </h4>
           </div>
         </ul>
         <ul class="skill-list list-flat">
-          <h3><li>Back End Skills</li></h3>
+          <h3><li style="text-align: center;font-size: 20px;">Back End Skills</li></h3>
+
           <h4 style="display: flex; gap: 1.9em; justify-content: center">
-            <li><img src="./img/java.svg" alt="" style="height: 70px" /></li>
-
-            <li>
-              <img src="./img/hibernate.svg" alt="" style="height: 70px" />
-            </li>
-
-            <li>
-              <img src="./img/spring-boot.svg" alt="" style="height: 70px" />
-            </li>
-
-            <li>
-              <img
-                src="./img/maven-svgrepo-com.svg"
-                alt=""
-                style="height: 70px"
-              />
-            </li>
+            <table style="
+                display: flex;
+                justify-content: space-around;
+                border-width: 5px;
+                border: 2px solid black;
+                color: white;
+                background-color: black;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+                  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                border-radius: 6px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: 100;
+              ">
+              <tbody><tr>
+                <td>Java</td>
+                <td>Hibernate</td>
+                <td>Spring</td>
+                <!-- <td>Maven</td>  -->
+              </tr>
+              <tr>
+                <td>
+                  <li>
+                    <img src="./img/java.svg" alt="" style="height: 70px">
+                  </li>
+                </td>
+                <td>
+                  <li>
+                    <img src="./img/hibernate.svg" alt="" style="height: 70px">
+                  </li>
+                </td>
+                <td>
+                  <li>
+                    <img src="./img/spring-boot.svg" alt="" style="height: 70px">
+                  </li>
+                </td>
+                <!-- <td>
+                  <li>
+                    <img
+                      src="./img/maven-svgrepo-com.svg"
+                      alt=""
+                      style="height: 70px"
+                    />
+                  </li>
+                </td> -->
+              </tr>
+            </tbody></table>
           </h4>
         </ul>
         <ul class="skill-list list-flat">
-          <h3><li>Database</li></h3>
+          <h3><li style="text-align: center;font-size: 20px;">Database</li></h3>
 
           <h4 style="display: flex; justify-content: center">
-            <li><img src="./img/mysql.svg" alt="" style="height: 70px" /></li>
+            <table style="
+                display: flex;
+                justify-content: space-around;
+                border-width: 5px;
+                border: 2px solid black;
+                background-color: black;
+                color: white;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+                  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                border-radius: 6px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: 100;
+              ">
+              <tbody><tr>
+                <td style="text-align: center;font-size: 20px;">Database</td>
+              </tr>
+              <tr>
+                <td>
+                  <li>
+                    <img src="./img/mysql.svg" alt="" style="height: 70px">
+                  </li>
+                </td>
+              </tr>
+            </tbody></table>
           </h4>
         </ul>
         <ul class="skill-list list-flat">
-          <h3><li>Tools</li></h3>
+          <h3><li style="text-align: center;font-size: 20px;">Tools</li></h3>
 
-          <h4 style="display:flex; gap: 1.9em; justify-content: center">
-            <!-- <li>
-              <img src="./img/adobe-xd.svg" alt="" style="height: 60px" />
-            </li> -->
+          <h4 style="display: flex; gap: 1.9em; justify-content: center">
+            <table style="
+                display: flex;
+                justify-content: space-around;
+                border-width: 5px;
+                border: 2px solid black;
+                background-color: black;
+                color: white;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+                  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                border-radius: 6px;
+                font-family:Arial, Helvetica, sans-serif;
 
-            <li><img src="./img/eclipse.svg" alt="" style="height: 60px" /></li>
-
-            <li>
-              <img
-                src="./img/intellij-idea-seeklogo.com.svg"
-                alt=""
-                style="height: 60px"
-              />
-            </li>
-
-            <li><img src="./img/postman.svg" alt="" style="height: 60px" /></li>
+                font-weight: 100;
+              ">
+              <tbody><tr>
+                <!-- <td>AdobeXD</td> -->
+                <td>STS</td>
+                <td>IntelIJ</td>
+                <!-- <td>Postman</td> -->
+                <td>Postman</td>
+                <!-- <td>Workbench</td> -->
+              </tr>
+              <tr>
+                <!-- <td>
+                  <li>
+                    <img src="./img/adobe-xd.svg" alt="" style="height: 60px" />
+                  </li>
+                </td> -->
+                <td>
+                  <li>
+                    <img src="./img/eclipse.svg" alt="" style="height: 60px">
+                  </li>
+                </td>
+                <td>
+                  <li>
+                    <img src="./img/intellij-idea-seeklogo.com.svg" alt="" style="height: 60px">
+                  </li>
+                </td>
+                <!-- <td>
+                  <li>
+                    <img src="./img/postman.svg" alt="" style="height: 60px" />
+                  </li>
+                </td> -->
+                <td>
+                  <li>
+                    <img src="./img/postman.svg" alt="" style="height: 60px">
+                  </li>
+                </td>
+                <!-- <td>
+                  <li>
+                    <img
+                      src="./img/64px-Antu_mysql-workbench.svg.png"
+                      alt=""
+                      style="height: 60px"
+                    />
+                  </li>
+                </td> -->
+              </tr>
+            </tbody></table>
           </h4>
         </ul>
       </div>
-    </div>
-    <br>
-<br>
-<br>
-<br>
+      <div class="container">
+        <br>
+        <br>
+        <br>
+
     <!-- Projects DONE -->
     <div class="work section second" id="projects">
       <div class="container">
@@ -493,7 +625,7 @@
           <br />
           A Individual project, built in 2 days. For further details please
           <a
-            href="https://github.com/Rupesh-1711/food-recipes-app"
+            href="https://github.com/Rupesh-1711/Blog_Application/tree/main/BlogApplication/src/main/java/com/blog"
             target="_blank"
             style="color: black; font-size: large; font-weight: 700"
             >visit.</a
@@ -625,7 +757,7 @@
             </li>
             <li style="margin: auto; margin-top: 5%; width: fit-content">
               <a
-                href="https://tubular-kataifi-7c9e1f.netlify.app/"
+                href="https://64f49e38e822fe1fdc78c428--famous-haupia-be800f.netlify.app/"
                 style="
                   text-decoration: none;
                   font-weight: 400;
@@ -895,11 +1027,10 @@
     </div>
 <br>
 <br>
-<br>
-<br>
+
     <!-- Projects -->
 
-    <div
+    <!-- <div
       style="
         width: 80%;
         padding-top: 2%;
@@ -924,7 +1055,7 @@
     color: white;
     font-size: x-small;">
   </div>
-  
+   -->
   
   <div style="display:flex;
   padding-top: 2%;
@@ -1050,7 +1181,7 @@
     </script>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <script>
-      GitHubCalendar(".calendar", "Rupesh-1711", { responsive: true });
+      GitHubCalendar(". ", "Rupesh-1711", { responsive: true });
     </script>
   </body>
 </html>
